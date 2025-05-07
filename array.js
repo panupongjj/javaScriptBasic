@@ -47,3 +47,22 @@ console.log(arr3)
 console.log(arr3.includes('P')) // result = true
 
 
+const arr4 = [ 1, 2, 3, 4]
+const arr5 = Array.from("jan")
+// concat an array 
+const concatArr = arr4.concat(arr5)
+console.log(concatArr)// result =  [1,   2,   3,   4, 'j', 'a', 'n']
+
+/// join an array to string
+const strArr = concatArr.join("|")
+console.log(strArr) // result =1|2|3|4|j|a|n
+
+
+// get array value by range of index
+const sliceArr = concatArr.slice(1,3) //( start , end(not include))
+console.log(sliceArr)
+
+// remove an array at particular index and how many index you want to remove
+console.log(concatArr) // [ 1,   2,   3,   4, 'j', 'a', 'n' ]
+const spliceArr = concatArr.splice(1,2) // [ 2, 3 ]  (start index 1 and remove 2 element)
+console.log(concatArr) // [ 1, 4, 'j', 'a', 'n' ]
