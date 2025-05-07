@@ -24,5 +24,5 @@ console.log("1" === 1)  //false
 console.log(true === 1) //false
 console.log(true === "1") //false
 console.log(null === undefined) //false
-console.log("" === [])  //false
-console.log("1,2" === [1,2])  //false
+//console.log("" === [])  //false
+//console.log("1,2" === [1,2])  //false
